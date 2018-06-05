@@ -13,7 +13,7 @@ func Fibo(n int) int {
     for i := 2; i <= n; i++ {
         array[i] = array[i-1]%10 + array[i-2]%10
     }
-    return array[n]
+    return array[n]%10
 }
 
 
