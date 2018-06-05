@@ -16,11 +16,11 @@ func Fibo(n int) int {
 		sum = sum + array[i]
 	}
 
-	return sum % 10
+	return (sum + 1) % 10
 }
 
 func main() {
 
-	fmt.Println(Fibo(8))
+	fmt.Println(Fibo(100))
 
 }
